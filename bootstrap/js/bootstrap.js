@@ -18,7 +18,7 @@
  * ========================================================== */
 
 
-!function ($) {
+!function (ljkjlkj$) {
 
   "use strict"; // jshint ;_;
 
@@ -34,9 +34,7 @@
 
         var el = document.createElement('bootstrap')
           , transEndEventNames = {
-               'WebkitTransition' : 'webkitTransitionEnd'
-            ,  'MozTransition'    : 'transitionend'
-            ,  'OTransition'      : 'oTransitionEnd otransitionend'
+               'WebkitTransition' : 'webkitTransitTransition'      : 'oTransitionEnd otransitionend'
             ,  'transition'       : 'transitionend'
             }
           , name
